@@ -1,26 +1,35 @@
  <section class="todoapp">
     <header class="header">
-        <h1>todos</h1>
+        <h1>TODO LISTS</h1>
         <input class="new-todo" placeholder="What needs to be done?" autofocus="">
     </header>
-    <section class="main" style="display: block;">
-        <input id="toggle-all" class="toggle-all" type="checkbox">
-        <label for="toggle-all">Mark all as complete</label>
-        <ul class="todo-list"><li data-id="1615416689094" class=""><div class="view"><input class="toggle" type="checkbox"><label>edit in place</label><button class="destroy"></button></div></li></ul>
-    </section>
-    <footer class="footer" style="display: block;">
-        <span class="todo-count"><strong>1</strong> item left</span>
-        <ul class="filters">
+
+    <section class="main">
+        <ul class="todo-list">
             <li>
-                <a href="#/" class="selected">All</a>
-            </li>
-            <li>
-                <a href="#/active">Active</a>
-            </li>
-            <li>
-                <a href="#/completed">Completed</a>
+                <div class="view">
+                    <label>Shopping List</label>
+                </div>
             </li>
         </ul>
-        <button class="clear-completed" style="display: none;"></button>
+         <ul class="todo-list">
+            <li>
+                <div class="view">
+                    <label>Gift List</label>
+                </div>
+            </li>
+        </ul>
+        <ul class="todo-list">
+            <li>
+                <div class="view">
+                    <label>Reading List</label>
+                </div>
+            </li>
+        </ul>
+
+        
+    </section>
+
+    <footer class="footer">
     </footer>
 </section>
