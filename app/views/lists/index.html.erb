@@ -1,0 +1,45 @@
+<section class="todoapp">
+    <header class="header">
+        <h1>TO DO LIST</h1>
+        <input class="new-todo" placeholder="Make a new list" autofocus="">
+    </header>
+    <section class="main">
+        <input id="toggle-all" class="toggle-all" type="checkbox">
+        <label for="toggle-all">Mark all as complete</label>
+        <ul class="todo-list">
+            <li>
+                <div class="view">
+                    <label>Shopping List</label>
+                    <button class="destroy"></button>
+                </div>
+            </li>
+            <li>
+                <div class="view">
+                    <label>Gift List</label>
+                    <button class="destroy"></button>
+                </div>
+            </li>
+            <li>
+                <div class="view">
+                    <label>Reading List</label>
+                    <button class="destroy"></button>
+                </div>
+            </li>
+        </ul>
+    </section>
+    <footer class="footer" style="display: block;">
+        <span class="todo-count"><strong>1</strong> item left</span>
+        <ul class="filters">
+            <li>
+                <a href="#/" class="selected">All</a>
+            </li>
+            <li>
+                <a href="#/active">Active</a>
+            </li>
+            <li>
+                <a href="#/completed">Completed</a>
+            </li>
+        </ul>
+        <button class="clear-completed" style="display: none;"></button>
+    </footer>
+</section>
