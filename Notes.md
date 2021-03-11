@@ -14,4 +14,9 @@
 
 I need a model
 I need a controller
-I should generate a resource
+I should generate a resource 
+
+Does it impact the DB?
+Does it impact my URLS?
+
+#Step Whatever: Fix down arrow on make a list form
