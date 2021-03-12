@@ -1,7 +1,9 @@
 <section class="todoapp">
     <header class="header">
         <h1>TO DO LIST</h1>
-        <input class="new-todo" placeholder="Make a new list" autofocus="">
+          <%= form_for(@list) do |f| %>
+            <%= f.text_field :name %>
+          <% end %>
     </header>
     <section class="main">
         <input id="toggle-all" class="toggle-all" type="checkbox">
@@ -10,7 +12,7 @@
             <%= @lists.each do |list| %>
                 <li>
                     <div class="view">
-                        <label><a href="#"><%= list.name %></a></label>
+                        <label><%= link_to list.name, list_path(list) %></label>
                         <button class="destroy"></button>
                     </div>
                 </li>
