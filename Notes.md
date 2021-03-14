@@ -19,4 +19,6 @@ I should generate a resource
 Does it impact the DB?
 Does it impact my URLS?
 
+# Step 3: Add Items to a List
+
 #Step Whatever: Fix down arrow on make a list form
